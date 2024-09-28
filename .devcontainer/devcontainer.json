@@ -1,0 +1,6 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:latest",
+  "features": {
+  },
+  "postCreateCommand": "sudo bash install.sh > post-create.log"
+}
