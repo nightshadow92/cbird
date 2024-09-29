@@ -1,8 +1,4 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
-  "features": {
-      "ghcr.io/devcontainers/features/sshd:1": {},
-      "ghcr.io/wxw-matt/devcontainer-features/apt:0": {},
-  },
+  "image": "mcr.microsoft.com/devcontainers/universal:latest",
   "postCreateCommand": "sudo bash install.sh > post-create.log"
 }
